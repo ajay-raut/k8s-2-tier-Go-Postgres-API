@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: go-api-container
-          image: ajay25/go-gin-api # <-- Your application image
+          image: ajay25/go-gin-api:cors # <-- Your application image
           ports:
             - containerPort: 8080 # <-- IMPORTANT: Assumes your Go app listens on port 8080
           env:
