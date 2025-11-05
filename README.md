@@ -145,9 +145,9 @@ go-api-service   NodePort   10.100.56.78    <none>        8080:30008/TCP   2m
 
 You can then access your API at `http://<publicIP of worker>:30008`.
 
-### 5\. For testing using postman
+### 5\. For testing using Postman
 
-Post method http://<worker-publicIP>:30008/posts
+Post method `http://<worker-publicIP>:30008/posts`
 
 ```
 {
@@ -158,7 +158,7 @@ Post method http://<worker-publicIP>:30008/posts
 
 ```
 
-Put method http://<worker-publicIP>:30008/posts/<id>
+Put method `http://<worker-publicIP>:30008/posts/<id>`
 
 ```
 {
@@ -167,10 +167,10 @@ Put method http://<worker-publicIP>:30008/posts/<id>
 
 ```
 
-Get (post by id) method http://<worker-publicIP>:30008/posts/<id>
+Get (post by id) method `http://<worker-publicIP>:30008/posts/<id>`
 
-Get (all post) method http://<worker-publicIP>:30008/posts
+Get (all post) method `http://<worker-publicIP>:30008/posts`
 
-Delete (Delete post by id) method http://<worker-publicIP>:30008/posts/<id>
+Delete (Delete post by id) method `http://<worker-publicIP>:30008/posts/<id>`
 
 
