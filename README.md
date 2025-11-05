@@ -148,12 +148,27 @@ You can then access your API at `http://<publicIP of worker>:30008`.
 ### 5\. For testing using postman
 
 Post method http://<worker-publicIP>:30008/posts
-JSON body
+
 ```
 {
     "Title": "string2",
 	"Body": "string3",
 	"Author": "string333"
-	}
+}
 
 ```
+
+Put method http://<worker-publicIP>:30008/posts/<id>
+
+```
+{
+    "Title": "300string"
+}
+
+```
+
+Get (post by id) method http://<worker-publicIP>:30008/posts/<id>
+
+Get (post by id) method http://<worker-publicIP>:30008/posts
+
+
