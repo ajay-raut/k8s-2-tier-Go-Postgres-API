@@ -169,6 +169,8 @@ Put method http://<worker-publicIP>:30008/posts/<id>
 
 Get (post by id) method http://<worker-publicIP>:30008/posts/<id>
 
-Get (post by id) method http://<worker-publicIP>:30008/posts
+Get (all post) method http://<worker-publicIP>:30008/posts
+
+Delete (Delete post by id) method http://<worker-publicIP>:30008/posts/<id>
 
 
