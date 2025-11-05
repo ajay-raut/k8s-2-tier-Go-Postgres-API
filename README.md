@@ -144,3 +144,16 @@ go-api-service   NodePort   10.100.56.78    <none>        8080:30008/TCP   2m
 ```
 
 You can then access your API at `http://<publicIP of worker>:30008`.
+
+### 5\. For testing using postman
+
+Post method http://<worker-publicIP>:30008/posts
+JSON body
+```
+{
+    "Title": "string2",
+	"Body": "string3",
+	"Author": "string333"
+	}
+
+```
